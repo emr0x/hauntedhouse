@@ -1,0 +1,211 @@
+#final {
+  text-align: center;
+  background-image: url("source.gif");
+  color: white;
+}
+.welcome {
+  font-size: 80px;
+}
+
+body {
+  font-family: 'Permanent Marker', cursive;
+}
+
+#start {
+  font-size: 30px;
+  background-color: grey;
+  color: white;
+  padding: 10px;
+}
+
+#tv {
+  display: none;
+  font-size: 45px;
+  font-family: fantasy;
+  padding: 30px;
+  color: white;
+}
+
+#kitchen {
+  display: none;
+  font-size: 45px;
+  padding: 30px;
+  color: white;
+}
+
+#doll {
+  display: none;
+  font-size: 45px;
+  padding: 30px;
+  color: white;
+}
+
+#survive {
+  display: none;
+  font-size: 45px;
+  padding: 30px;
+  color: white;
+}
+
+#box {
+  display: none;
+  font-size: 45px;
+  padding: 30px;
+  color: white;
+}
+
+#nap {
+  display: none;
+  font-size: 45px;
+  padding: 30px;
+  color: white;
+}
+
+#hole {
+  display: none;
+  font-size: 45px;
+  padding: 30px;
+  color: white;
+}
+
+#explore {
+  margin-left: 75px;
+  margin-top: 350px;
+}
+
+#leave {
+  margin-left: 300px;
+  margin-top: 150px;
+}
+
+#one {
+    margin-left: 75px;
+    margin-top: 350px;
+}
+
+#two {
+  margin-left: 300px;
+  margin-top: 150px;
+}
+
+#three {
+    margin-left: 75px;
+    margin-top: 350px;
+}
+
+#four {
+  margin-left: 300px;
+  margin-top: 150px;
+}
+
+#five {
+    margin-left: 75px;
+    margin-top: 350px;
+}
+
+#six {
+  margin-left: 300px;
+  margin-top: 150px;
+}
+
+#seven {
+    margin-left: 75px;
+    margin-top: 350px;
+}
+
+#eight {
+  margin-left: 300px;
+  margin-top: 150px;
+}
+
+#nine {
+    margin-left: 75px;
+    margin-top: 350px;
+}
+
+#ten {
+  margin-left: 300px;
+  margin-top: 150px;
+}
+
+#deaths {
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  padding: 10px;
+  margin: 150px auto;
+  text-shadow: 1px 1px 2px black;
+}
+
+#start:hover {
+  background-color: black;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  /* used https://www.w3schools.com/css/css3_buttons.asp */
+}
+
+#home {
+  margin-left: 50px;
+  margin-top: 25px;
+}
+
+#home:hover {
+  background-color: black;
+}
+
+#game {
+  background-image: url("house.png");
+}
+
+#buttonAppear button {
+  display: none;
+  background-color: grey;
+  color: white;
+  font-size: 45px;
+}
+
+#explore:hover {
+  background-color: black;
+}
+
+#leave:hover {
+  background-color: black;
+}
+
+#one:hover {
+  background-color: black;
+}
+
+#two:hover {
+  background-color: black;
+}
+
+#three:hover {
+  background-color: black;
+}
+
+#four:hover {
+  background-color: black;
+}
+
+#five:hover {
+  background-color: black;
+}
+
+#six:hover {
+  background-color: black;
+}
+
+#seven:hover {
+  background-color: black;
+}
+
+#eight:hover {
+  background-color: black;
+}
+
+#nine:hover {
+  background-color: black;
+}
+
+#ten:hover {
+  background-color: black;
+}

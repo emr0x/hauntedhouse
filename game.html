@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
   </head>
   <body id="game"  onload="setTimeout(intro, 500)">
+    <!--Dr. Knudson helped me with the onload="setTimeout(intro, 500)" so the game alerts would popup after the page had already loaded -->
     <div id="buttonAppear">
       <button type="button" id="explore" onclick="choiceOne()"> Open the door and go upstairs </button>
       <button type="button" id="leave" onclick="choiceTwo()"> Go to the room on the left </button>
@@ -49,13 +50,13 @@
     <script>
 
       function intro(){
-        var enterHouse = confirm ("you are walking through the woods when you see a peculiar looking house...now you have some decisions to make...");
+        var enterHouse = confirm ("you are walking through the woods when you see a peculiar looking house...");
           if (enterHouse == true){
             alert("Okay... you have decided to enter the house and explore");
             }
           else{
             alert("Congratulations! You have made the smart choice to ignore your curiousity, and you have survived the haunted house! You have beaten the game!");
-              /* used https://www.w3schools.com/js/js_popup.asp */
+              /* used https://www.w3schools.com/js/js_popup.asp -- w3schools helped me figure out how to use the popup*/
             }
 
         var information = confirm("You now have some choices to make...");
